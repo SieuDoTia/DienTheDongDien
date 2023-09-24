@@ -3,11 +3,14 @@ Chương trình cho làm mô phỏng điện thế từ nam châm.
 
 # Cách sử dụng
 Tải xuống, bỏ vào hồ sơ và gõ 'make' để biên dịch nó.
+
 Xong rồi tại một tệp tin có tham số cho mô phỏng và gõ
+
  ./dienTheDongDien <tên tập tin chứa tham số mô phỏng>
 
 # Những tham số cho tạo tập tin chứa tham số mô phỏnng
 Những ký hiệu cho tập tin:
+
   P - Phiêu bản:
 
   X - XUẤT TẬP TIN:
