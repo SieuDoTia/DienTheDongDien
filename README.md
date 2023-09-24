@@ -11,7 +11,7 @@ Xong rồi tại một tệp tin có tham số cho mô phỏng và gõ
 # Những tham số cho tạo tập tin chứa tham số mô phỏnng
 Những ký hiệu cho tập tin:
 
-  P - Phiêu bản:
+##  P - Phiêu bản:
 
   X - XUẤT TẬP TIN:
     t - tộp tin xuất, có hai loại: tập tin bảng số 'b' và tập tin SVG 's'
