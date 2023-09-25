@@ -69,3 +69,6 @@ Những ký hiệu cho tập tin:
     kc - khoảng cách từ trung tam xoay (mm)
     
     sl - số lượng dòng điện
+
+
+![alt tag](Blender/Sơ Đồ Biến.png)
