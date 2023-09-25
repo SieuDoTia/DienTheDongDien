@@ -28,9 +28,9 @@
      inkscape:deskcolor="#e4e4e4"
      inkscape:document-units="px"
      showgrid="false"
-     inkscape:zoom="0.14866305"
-     inkscape:cx="2105.4324"
-     inkscape:cy="686.11535"
+     inkscape:zoom="0.2973261"
+     inkscape:cx="1671.5653"
+     inkscape:cy="803.83121"
      inkscape:window-width="1440"
      inkscape:window-height="430"
      inkscape:window-x="0"
@@ -226,5 +226,16 @@
        cx="421.90359"
        cy="435.74683"
        r="3.4608049" />
+    <text
+       xml:space="preserve"
+       style="font-style:italic;font-size:28.2222px;line-height:1.2;font-family:Arial;-inkscape-font-specification:'Arial Italic';text-decoration-color:#000000;fill:#ffffff;stroke:none;stroke-width:0.264583;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;stop-color:#000000"
+       x="466.74136"
+       y="196.25876"
+       id="text352"><tspan
+         sodipodi:role="line"
+         id="tspan350"
+         style="font-size:28.2222px;fill:#ffffff;stroke:none;stroke-width:0.264583;stroke-dasharray:none;stroke-dashoffset:0"
+         x="466.74136"
+         y="196.25876">bk</tspan></text>
   </g>
 </svg>
