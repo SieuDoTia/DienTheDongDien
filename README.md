@@ -71,4 +71,4 @@ Những ký hiệu cho tập tin:
     sl - số lượng dòng điện
 
 
-![alt tag](Blender/Sơ Đồ Biến.png)
+![alt tag](../Blender/Sơ Đồ Biến.png)
