@@ -71,4 +71,4 @@ Những ký hiệu cho tập tin:
     sl - số lượng dòng điện
 
 
-![alt tag](../Blender/Sơ Đồ Biến.png)
+![image](https://github.com/SieuDoTia/DienTheDongDien/blob/main/Blender/Sơ%20Đồ%20Biến.png)https://github.com/SieuDoTia/DienTheDongDien/blob/main/Blender/Sơ%20Đồ%20Biến.png)
