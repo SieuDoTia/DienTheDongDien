@@ -29,14 +29,14 @@
      inkscape:document-units="px"
      showgrid="false"
      inkscape:zoom="0.14866305"
-     inkscape:cx="978.72336"
-     inkscape:cy="914.82046"
+     inkscape:cx="2105.4324"
+     inkscape:cy="686.11535"
      inkscape:window-width="1440"
      inkscape:window-height="430"
      inkscape:window-x="0"
      inkscape:window-y="23"
      inkscape:window-maximized="0"
-     inkscape:current-layer="layer1" />
+     inkscape:current-layer="layer3" />
   <defs
      id="defs151" />
   <g
@@ -137,7 +137,7 @@
        sodipodi:nodetypes="csc" />
     <path
        style="font-variation-settings:normal;opacity:1;vector-effect:none;fill:none;fill-opacity:1;stroke:#1a1a1a;stroke-width:2.64583;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;stop-color:#000000;stop-opacity:1"
-       d="m 420.02143,436.0392 c -34.51651,15.15385 -88.95982,33.87324 -80.97871,0.88986 6.75123,-27.90067 -79.05635,5.8063 -108.56486,21.35703"
+       d="m 420.02143,436.0392 c -26.33643,14.52461 -85.6645,33.9562 -69.65244,4.03605 14.93131,-27.90067 -36.89745,-16.84625 -66.40596,-1.29552"
        id="path4935"
        sodipodi:nodetypes="csc" />
     <path
@@ -184,26 +184,36 @@
          y="274.56784">dc</tspan></text>
     <text
        xml:space="preserve"
-       style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:28.2223px;line-height:1.2;font-family:Arial;-inkscape-font-specification:'Arial Italic';font-variation-settings:normal;text-decoration-color:#000000;opacity:1;fill:#000000;fill-opacity:1;stroke:none;stroke-width:2.64583;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;stop-color:#000000;stop-opacity:1"
-       x="502.13132"
-       y="91.868645"
+       style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:24.69444458px;line-height:1.2;font-family:Arial;-inkscape-font-specification:'Arial Italic';font-variation-settings:normal;text-decoration-color:#000000;opacity:1;fill:#000000;fill-opacity:1;stroke:none;stroke-width:2.64583;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;stop-color:#000000;stop-opacity:1"
+       x="510.3114"
+       y="66.069916"
        id="text5862"><tspan
          sodipodi:role="line"
          id="tspan5860"
-         style="stroke:none;stroke-width:2.64583"
-         x="502.13132"
-         y="91.868645">NAM CHÂM</tspan></text>
+         style="stroke:none;stroke-width:2.64583;font-size:24.69444458px"
+         x="510.3114"
+         y="66.069916">NAM CHÂM</tspan><tspan
+         sodipodi:role="line"
+         style="stroke:none;stroke-width:2.64583;font-size:24.69444458px"
+         x="510.3114"
+         y="91.469917"
+         id="tspan450">HÌNH TRỤ</tspan></text>
     <text
        xml:space="preserve"
-       style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:28.2223px;line-height:1.2;font-family:Arial;-inkscape-font-specification:'Arial Italic';font-variation-settings:normal;text-decoration-color:#000000;opacity:1;fill:#000000;fill-opacity:1;stroke:none;stroke-width:2.64583;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;stop-color:#000000;stop-opacity:1"
-       x="129.62285"
-       y="488.28815"
+       style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:24.6944px;line-height:1.2;font-family:Arial;-inkscape-font-specification:'Arial Italic';font-variation-settings:normal;text-decoration-color:#000000;opacity:1;fill:#000000;fill-opacity:1;stroke:none;stroke-width:2.64583;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;stop-color:#000000;stop-opacity:1"
+       x="134.20639"
+       y="450.03116"
        id="text5866"><tspan
          sodipodi:role="line"
          id="tspan5864"
-         style="stroke:none;stroke-width:2.64583"
-         x="129.62285"
-         y="488.28815">DÒNG ĐIỆN</tspan></text>
+         style="font-size:24.6944px;stroke:none;stroke-width:2.64583"
+         x="134.20639"
+         y="450.03116">DÒNG ĐIỆN</tspan><tspan
+         sodipodi:role="line"
+         style="font-size:24.6944px;stroke:none;stroke-width:2.64583"
+         x="134.20639"
+         y="479.66449"
+         id="tspan452">HÌNH TRÒN</tspan></text>
     <circle
        style="font-variation-settings:normal;opacity:1;fill:#000000;fill-opacity:1;stroke:none;stroke-width:2.64583;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;stop-color:#000000;stop-opacity:1"
        id="path6702"
