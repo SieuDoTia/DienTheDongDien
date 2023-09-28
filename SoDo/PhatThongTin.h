@@ -16,3 +16,6 @@ void phatThongTinNamChamHinhHop( FILE *tepSVG, float viTriX, float viTriY, NamCh
 void phatThongTinDongDienPhanHinhTron(  FILE *tepSVG, float viTriX, float viTriY, DongDienPhanHinhTron *dongDien, unsigned char soDongDien );
 
 void phatThongTinDongDienHinhTron(  FILE *tepSVG, float viTriX, float viTriY, DongDienHinhTron *dongDien, unsigned char soDongDien );
+
+// ---- thông tin tên tập tin nhập và ngày tháng mô phỏng
+void phatThongTinTapTapTinNhapVaNgayThang( FILE *tepSVG, float viTriX, float viTriY, char *tenTepSVG );

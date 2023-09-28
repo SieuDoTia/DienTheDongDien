@@ -438,9 +438,9 @@ void veSoDo_dongDienPhanHinhTron_namChamHinhHop( char *tenTep, double *mangDuLie
    ketThucSVG( tepSVG );
 }
 
-void veSoDo_dongDienHinhTron_namChamHinhHop( char *tenTep, double *mangDuLieu, unsigned short soDiem, NamChamHinhHop *mangNamCham, unsigned char soNamCham, DongDienHinhTron *dongDien, unsigned char soDongDien ) {
+void veSoDo_dongDienHinhTron_namChamHinhHop( char *tenTepSVG, double *mangDuLieu, unsigned short soDiem, NamChamHinhHop *mangNamCham, unsigned char soNamCham, DongDienHinhTron *dongDien, unsigned char soDongDien ) {
    
-   FILE *tepSVG = fopen( tenTep, "w" );
+   FILE *tepSVG = fopen( tenTepSVG, "w" );
    if(  tepSVG == NULL ) {
       printf( "SVG - LỖI LẦM: Vấn đề mở tập tin\n" );
       exit(1);
@@ -521,6 +521,10 @@ void veSoDo_dongDienHinhTron_namChamHinhHop( char *tenTep, double *mangDuLieu, u
    // ---- phát thông tin về hệ thống
    phatThongTinNamChamHinhHop( tepSVG, kLE_TRAI + 340.0, 500.0f, mangNamCham, soNamCham );
    phatThongTinDongDienHinhTron( tepSVG, kLE_TRAI + 340.0, 680.0f, dongDien, soDongDien );
+   
+   // ----
+   phatThongTinTapTapTinNhapVaNgayThang( tepSVG, kLE_TRAI, 750.0f, tenTepSVG );
+   
    // ----
    ketThucSVG( tepSVG );
 }

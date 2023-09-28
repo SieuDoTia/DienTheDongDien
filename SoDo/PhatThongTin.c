@@ -1,4 +1,5 @@
 #include <stdlib.h>
+#include <time.h>
 //#include <math.h>
 #include "../HangSo.h"
 #include "../SVG.h"
@@ -195,6 +196,35 @@ void phatThongTinDongDienHinhTron(  FILE *tepSVG, float viTriX, float viTriY, Do
    diem0_x = viTriX;
    diem0_y += 15.0f;
    sprintf( xauThongTin, "Số lượng: %d", soDongDien );
+   vanBan_ngang( tepSVG, xauThongTin, diem0_x, diem0_y, "Sans", 12.0f, "Bold",
+                kDUNG, 0x000000, 1.0f, kSAI, 0.0f, 0x000000, 0.0f, "left" );
+}
+
+
+void phatThongTinTapTapTinNhapVaNgayThang( FILE *tepSVG, float viTriX, float viTriY, char *tenTepSVG ) {
+
+   // ==== thông tin nam châm
+   char xauThongTin[64];
+   
+   // ==== tên tập tin
+   float diem0_x = viTriX;
+   float diem0_y = viTriY;
+   vanBan_ngang( tepSVG, "DÒNG ĐIỆN", diem0_x, diem0_y, "Sans", 15.0f, "Bold",
+                kDUNG, 0x000000, 1.0f, kSAI, 0.0f, 0x000000, 0.0f, "left" );
+   
+   // ==== ngày tháng
+   time_t thoiGian = time(NULL);
+   struct tm *ngayNay = localtime(&thoiGian);
+   
+   unsigned short nam = ngayNay->tm_year;
+   unsigned char thang = ngayNay->tm_mon;
+   unsigned char ngay = ngayNay->tm_mday;
+   unsigned char gio = ngayNay->tm_hour;
+   unsigned char phut = ngayNay->tm_min;
+   unsigned char giay = ngayNay->tm_sec;
+
+   diem0_y += 15.0f;
+   sprintf( xauThongTin, "%04d.%02d.%02d %02d:%02d:%02d", nam, thang, ngay, gio, phut, giay );
    vanBan_ngang( tepSVG, xauThongTin, diem0_x, diem0_y, "Sans", 12.0f, "Bold",
                 kDUNG, 0x000000, 1.0f, kSAI, 0.0f, 0x000000, 0.0f, "left" );
 }
