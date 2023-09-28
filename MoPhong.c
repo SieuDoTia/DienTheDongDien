@@ -13,7 +13,7 @@
 double *moPhongNamChamHinhTru_dongDienPhanHinhTron( NamChamHinhTru *mangNamCham, unsigned char soNamCham,
                            DongDienPhanHinhTron *dongDienPhanHinhTron, unsigned short soMau ) {
 
-   double *mangDienThe = malloc( ((1 + soMau) * sizeof( double )) << 1 );  // điểm x và y
+   double *mangDienThe = calloc( (1 + soMau) << 1, sizeof( double ) );  // điểm x và y
    if( mangDienThe == NULL ) {
       printf( "LỖI LẦM: Vấn đề giàng bộ nhớ cho mảng\n" );
       exit(2);

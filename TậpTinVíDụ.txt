@@ -1,0 +1,31 @@
+# -----------------------------
+# Phiên Bản tập tin nhập。版本
+P 1.00
+
+# -----------------------------
+# Mô phỏng 模拟
+MP m=128
+
+# -----------------------------
+# Xuất thông tin 出什么文件，只有两个类：电子表格(b)和SVG(s)
+# Xuất cả hai loại     输出两者
+X t=s t=b 
+
+# -----------------------------
+# Nam châm。磁铁
+# l - loại hình trụ (t)。类 圆柱
+# bk - bán kính 3.0 mm 半径
+# cc - chiều cao 1.5 mm  高度
+# kc - khoảng cách từ trung tâm xoay 8.0 mm  距轴的距离
+# dc - độ cao trên mặt phẳng dòng điện (mm)  高度线电面上
+# sl - số lượng 3。数量
+# cd - cường độ 978 A/m
+N l=t bk=3.0 cc=1.5 kc=8.0 dc=2.0 sl=3 am=978.0
+
+# -----------------------------
+# Dòng điện。线电
+# l - hình tròn (t)  类 圆圈
+# sl - số lượng 3   数量
+# bk - bán kính 3.0 mm  半径
+# kc - khoảng cách từ trung tâm xoay 距轴的距离
+D l=t sl=3 bk=3.0 kc=8.0
